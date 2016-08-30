@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #2f4f4f;
+	color: white;
+}
+
+.content {
+	min-height: 100%;
+	margin: 0 auto -5em;
+}
+
+footer {
+	height: 5em;
+}
+
+p {
+	padding-left: 7em;
+	margin: 0;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	align-items: flex-start;
+}
+
+h1 {
+	font-size: 45px;
+}
+
+#name {
+	margin-top: 10em;
+	padding: 0em 0em 2.5em 7em;
+}
+
+#jobs {
+	letter-spacing: 0.25em;
+	padding-left: 7em;
+}
+
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 1px 0;
+  margin: 18px 0;
+}
+/* hr styling from http://stackoverflow.com/questions/11577712/hr-tag-in-twitter-bootstrap-not-functioning-correctly *
