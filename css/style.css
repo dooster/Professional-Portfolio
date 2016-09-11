@@ -9,11 +9,30 @@ html, body {
 body {
 	background-color: #2f4f4f;
 	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+.ui-tabs,
+.ui-corner-all,
+.ui-widget,
+.ui-widget-content,
+.ui-tabs-collapsible,
+.ui-tabs-panel,
+.ui-corner-bottom,
+.ui-widget-content {
+	padding-left: 2.5em;
+}
+
+.ui-tabs-panel,
+.ui-corner-bottom,
+.ui-widget-content {
+	padding-top: 2em;
 }
 
 .content {
 	min-height: 100%;
 	margin: 0 auto -5em;
+	padding-left: 7em;
 }
 
 footer {
@@ -21,7 +40,6 @@ footer {
 }
 
 p {
-	padding-left: 7em;
 	margin: 0;
 }
 
@@ -44,34 +62,31 @@ h1 {
 
 #name {
 	margin-top: 10em;
-	padding: 0em 0em 2.5em 7em;
+	padding: 0em 0em 2.5em;
+	color: #def0f2;
+	font-family: 'Droid Serif', serif;
 }
 
 .jobs {
 	letter-spacing: 0.25em;
-	padding-left: 7em;
+	margin-left: -3em;
 }
 
 #one-line li {
 	display: inline;
 }
 
-.strike {
-	text-decoration: line-through;
-}
-
 a {
 	color: inherit;
 }
 
-a:hover {
-	color: #fddbd1;
+a:visited{
+	color: white;
 }
 
-a:visited {
+a:hover{
 	color: #fddbd1;
 }
-
 
 hr {
   -moz-border-bottom-colors: none;

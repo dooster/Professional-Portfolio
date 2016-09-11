@@ -29,7 +29,7 @@ $('#developer').click(function(event){
 /*$('#writer').click(function(event){
 	$('.section').toggle('medium');
 });*/
-
+/*
 $('.selector').hover(function(){
     // Cleanup / Reset to default position
     $('.selector').removeClass('clicked');
@@ -61,4 +61,4 @@ $('body').click(function(evt) {
         $('.selector').css('text-decoration', 'none');
         $('.selector').css('color', 'white');
    }
-});
+});*/
