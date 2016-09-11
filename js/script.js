@@ -62,11 +62,3 @@ $('body').click(function(evt) {
         $('.selector').css('color', 'white');
    }
 });
-
-$('.selector a').click(function(e) {
-	var currentAttrValue = $(this).attr('href');
-
-	$('.selector' + currentAttrValue).show().siblings().hide();
-
-	e.preventDefault();
-});

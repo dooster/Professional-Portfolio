@@ -38,11 +38,6 @@ ul {
 	align-items: flex-start;
 }
 
-.section {
-	padding-left: 7em;
-	display: none;
-}
-
 h1 {
 	font-size: 45px;
 }
@@ -52,9 +47,13 @@ h1 {
 	padding: 0em 0em 2.5em 7em;
 }
 
-#jobs {
+.jobs {
 	letter-spacing: 0.25em;
 	padding-left: 7em;
+}
+
+#one-line li {
+	display: inline;
 }
 
 .strike {
@@ -69,43 +68,10 @@ a:hover {
 	color: #fddbd1;
 }
 
-a:active {
+a:visited {
 	color: #fddbd1;
 }
 
-a:visited{
-	color: #fddbd1;
-}
-
-.tab {
-	display: none;
-}
-
-.tab.active{
-	display: block;
-}
-/*.selector:hover {
-	color: #fddbd1;
-	font-size: 45px;
-}*/
-
-/*.slides .slide-hidden {
-	transform: translate3d(-20em, 0, 0);
-	transition: transform 0.2s;
-}
-
-.outer {
-	overflow: hidden;
-	position: relative;
-}
-
-.slides {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	transform: translate3d(0, 0, 0);
-	transition: transform 0.2s;
-}*/
 
 hr {
   -moz-border-bottom-colors: none;

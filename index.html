@@ -1,60 +1,50 @@
 <!DOCTYPE HTML>
 
-	<header>
+	<head>
 		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
 		<title>Jeremy Bender's Wonderific Portfolio</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
 		<link href="css/style.css" rel="stylesheet">
-	</header>
+		<script src="js/jQuery.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/script.js"></script>
+	</head>
 
 	<body class="container-fluid">
 		<div class="content">
 			<div class="row col-xs-12" id="name">
 				<h1>Jeremy Bender.</h1>
 			</div>
-			<div class="row col-xs-12" id="jobs">
-				<h2><span class="selector" id="writer"><a href="#tab1">Writer and Editor</a></span>, <span class="selector" id="slayer"><a href="#tab2">Social Media Slayer</a></span>, <span class="selector" id="developer"><a href="#tab3">Amateur Developer</a></span>.</h2>
-			</div>
 
-			<div class="section">
-				<div id="tab1" class="tab">
-					<div class="row col-xs-12">
-						<img src="" alt="Jeremy holding a pen preparing to edit">
-					</div>
-					<div class="row col-xs-12">
-						<h2>Writer and Editor</h2>
-					</div>
-					<div class="row col-xs-12">
-						<ul>
-							<li>Chapter 1: Travel blogging Anatolia</li>
-							<li>Chapter 2: Tis the BuzzFeed Season</li>
-							<li>Chapter 3: Freelancing to a Better Tomorrow</li>
-							<li>Chapter 4: The Business Insider Years</li>
-						</ul>
-					</div>
+			<div class="jobs" id="tabs">
+				<ul class ="row" id="one-line">
+					<li><h2><a href="#fragment-1">Writer and Editor</a></h2></li>
+					<li><h2>, <a href="#fragment-2">Social Media Slayer</a></h2></li>
+					<li><h2>, <a href="#fragment-3">Amateur Developer</a>.</h2></li>
+				</ul>
+				<div id="fragment-1">
+					<h2>Writer and Editor</h2>
+					<ul>
+						<li>Chapter 1: Travel blogging Anatolia</li>
+						<li>Chapter 2: Tis the BuzzFeed Season</li>
+						<li>Chapter 3: Freelancing to a Better Tomorrow</li>
+						<li>Chapter 4: The Business Insider Years</li>
+					</ul>
 				</div>
 
-				<div id="tab2" class="tab">
-					<div class="row col-xs-12">
-						<img src="" alt="Jeremy doing something social">
-					</div>
-					<div class="row col-xs-12">
-						<ul>
-							<li>#ExcitingPersonalAccounts</li>
-							<li>#MoarExcitingProfessionalAccounts</li>
-						</ul>
-					</div>
+				<div id="fragment-2">
+					<h2>Social Media Slayer</h2>
+					<ul>
+						<li>#ExcitingPersonalAccounts</li>
+						<li>#MoarExcitingProfessionalAccounts</li>
+					</ul>
 				</div>
 
-				<div id="tab3" class-"tab">
-					<div class="rol col-xs-12">
-						<img src="" alt="Jeremy designing on a computer">
-					</div>
-					<div class="rol col-xs-12">
-						<ul>
-						</ul>
-					</div>
+				<div id="fragment-3">
+					<h2>Amateur Developer</h2>
+					<ul>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -63,10 +53,20 @@
 			<div class="col-xs-12">
 				<hr>
 			</div>
-			<p>Created by <a href="github.com/dooster"><i class="fa fa-github"></i> Jeremy Bender</a>. Pick your poison: <a href="twitter.com/bendedbrains"> <i class="fa fa-twitter"></i></a> <a href="bendedbrains.com"> <i class="fa fa-wordpress"></i></a> </p>
+			<p>Created by <a href="https://www.github.com/dooster"><i class="fa fa-github"></i> Jeremy Bender</a>. Pick your poison: <a href="https://www.twitter.com/bendedbrains"> <i class="fa fa-twitter"></i></a>
+			<a href="https://www.bendedbrains.com"> <i class="fa fa-wordpress"></i></a>
+			<a href="https://www.linkedin.com/in/jisbender"> <i class="fa fa-linkedin"></i></a>
+			</p>
 		</footer>
+		<script>
+			$('#tabs').tabs();
+			$(".selector").tabs({
+				active: false
+			});
+			$(".selector").tabs({
+				collapsible: true
+			});
+		</script>
 	</body>
-	<script src="js/jQuery.js"></script>
-	<script src="js/script.js"></script>
 
 
