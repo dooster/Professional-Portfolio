@@ -4,12 +4,12 @@
 
 html, body {
 	height: 100%;
+	font-family: 'Raleway', sans-serif;
 }
 
 body {
 	background-color: #2f4f4f;
 	color: white;
-	font-family: 'Raleway', sans-serif;
 }
 
 .ui-tabs,
@@ -30,11 +30,16 @@ body {
 }
 
 .content {
-	min-height: 100%;
 	margin: 0 auto -5em;
-	padding-left: 7em;
+	padding-left: 12em;
 }
 
+#header {
+	padding: .5em .5em;
+	text-align: right;
+	font-size: 25px;
+	letter-spacing: 0.2em;
+}
 footer {
 	height: 5em;
 }
@@ -57,19 +62,22 @@ ul {
 }
 
 h1 {
-	font-size: 45px;
+	font-size: 54px;
 }
 
 #name {
 	margin-top: 10em;
-	padding: 0em 0em 2.5em;
-	color: #def0f2;
-	font-family: 'Droid Serif', serif;
+	padding: 0em 0em 1.5em 2em;
+	color: #a7d7dc;
 }
 
 .jobs {
 	letter-spacing: 0.25em;
 	margin-left: -3em;
+}
+
+.links a {
+	text-decoration: underline;
 }
 
 #one-line li {
